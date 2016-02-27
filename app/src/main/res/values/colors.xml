@@ -4,8 +4,9 @@
     <!--<color name="colorPrimaryDark">#303F9F</color>-->
     <!--<color name="colorAccent">#FF4081</color>-->
     <color name="colorPrimary">#f050a3</color>
-    <color name="colorPrimaryDark">#ffd06d</color>
+    <!--<color name="colorPrimaryDark">#ffd06d</color>-->
     <color name="colorAccent">#FF4081</color>
     <color name="orangeTheme">#ffd06d</color>
-    <color name="pinkTheme">#f050a3</color>color>
+    <color name="pinkTheme">#f050a3</color>
+    <color name="white">#ffffff</color>
 </resources>
