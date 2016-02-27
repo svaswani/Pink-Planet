@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/logo"
+        android:src="@drawable/ppmobilelogin"
         android:layout_alignBottom="@+id/username"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -36,8 +36,7 @@
         android:hint="Username"
         android:inputType="textPersonName"
         android:paddingTop="20dp"
-        android:layout_marginTop="110dp"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/password"
         android:layout_centerHorizontal="true" />
         <!--android:layout_below="@+id/loginimage"/>-->
 
@@ -48,7 +47,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_below="@+id/username"
+        android:layout_above="@+id/signin"
         android:layout_alignLeft="@+id/username"
         android:layout_alignStart="@+id/username" />
 
@@ -61,11 +60,10 @@
         android:text="Sign In"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:layout_below="@+id/password"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/forgotPassword"
         android:layout_alignLeft="@+id/password"
-        android:layout_alignStart="@+id/password"
-        android:layout_alignRight="@+id/password"
-        android:layout_alignEnd="@+id/password" />
+        android:layout_alignStart="@+id/password" />
 
     <Button
         android:id="@+id/signup"
@@ -74,7 +72,8 @@
         android:background="@color/pinkTheme"
         android:text="Sign Up"
         android:textColor="@color/white"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/signin"
         android:layout_centerHorizontal="true" />
 
     <Button
