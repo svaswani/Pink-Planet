@@ -83,6 +83,11 @@ class ViewPagerAdapter extends FragmentPagerAdapter {
         return mFragmentList.size();
     }
 
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return mFragmentTitles.get(position);
+    }
+
     /**
      * Adds a fragment to this ViewPager adapter to display on the ViewPager.
      *
@@ -90,10 +95,12 @@ class ViewPagerAdapter extends FragmentPagerAdapter {
      * @param title    The title of the fragment to display in the TabLayout
      */
     public void addFragment(Fragment fragment, String title) {
+
         if (fragment == null || title == null) {
             throw new NullPointerException("Fragment or fragment title is null.");
         }
         mFragmentList.add(fragment);
         mFragmentTitles.add(title);
+
     }
 }

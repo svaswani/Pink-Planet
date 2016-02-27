@@ -10,6 +10,7 @@ import android.widget.TextView;
  * Created by svaswani on 2/27/2016.
  */
 public class MessagesFragment extends Fragment {
+
     private TextView mExampleView;
 
     public MessagesFragment() {
