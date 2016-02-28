@@ -1,6 +1,7 @@
 package com.example.svaswani.pink_planet;
 
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,7 +16,6 @@ import android.widget.TextView;
 public class ProfileFragment extends Fragment {
 
     private TextView mExampleView;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
