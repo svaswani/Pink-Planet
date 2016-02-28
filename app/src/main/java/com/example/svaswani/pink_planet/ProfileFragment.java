@@ -19,7 +19,7 @@ public class ProfileFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.content_messagesfragment, container,
+        View rootView = inflater.inflate(R.layout.content_profilefragment, container,
                 false);
 
         return rootView;
@@ -30,9 +30,9 @@ public class ProfileFragment extends Fragment {
 
     }
 
-    @Nullable
-    @Override
-    public View getView() {
-        return mExampleView;
-    }
+//    @Nullable
+//    @Override
+//    public View getView() {
+//        return mExampleView;
+//    }
 }
