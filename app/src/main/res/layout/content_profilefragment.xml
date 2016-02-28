@@ -19,7 +19,7 @@
             android:id="@+id/fullname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="75dp"
+            android:paddingRight="130dp"
             android:text="                Alia G"
             android:textAlignment="center"
             android:textStyle="bold"
@@ -28,7 +28,8 @@
             android:layout_below="@+id/propic"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:paddingTop="10dp" />
+            android:paddingTop="10dp"
+            android:textSize="35dp" />
         <Button
             android:id="@+id/edit"
             android:layout_width="110dp"
@@ -50,7 +51,8 @@
                 android:layout_alignParentStart="true"
                 android:textAlignment="center"
                 android:layout_marginBottom="30dp"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/aboutmetitle"
@@ -60,7 +62,9 @@
                 android:layout_below="@+id/academicsTitle"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
             <TextView
                 android:id="@+id/aboutme"
                 android:layout_width="match_parent"
@@ -71,7 +75,10 @@
                 android:text="I like video games and drawing! I&apos;m also super passionate about learning and technology."
                 android:layout_below="@+id/academicsTitle"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="16dp" />
 
     <TextView
         android:id="@+id/intereststitle"
@@ -81,7 +88,9 @@
         android:layout_below="@+id/aboutme"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp" />
     <TextView
         android:id="@+id/interests"
         android:layout_width="match_parent"
@@ -91,7 +100,9 @@
         android:layout_below="@+id/intereststitle"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="drawing, video games, weight lifting" />
+        android:text="drawing, video games, weight lifting"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp" />
 
 </RelativeLayout>
 
