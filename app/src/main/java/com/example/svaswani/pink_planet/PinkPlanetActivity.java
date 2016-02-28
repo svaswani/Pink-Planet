@@ -32,6 +32,7 @@ public class PinkPlanetActivity extends AppCompatActivity {
 
         // add fragments to viewPager
         viewPagerAdapter.addFragment(new ProfileFragment(), "Profile");
+        viewPagerAdapter.addFragment(new FindFragment(), "Find Friends");
         viewPagerAdapter.addFragment(new MessagesFragment(), "Messages");
         viewPager.setAdapter(viewPagerAdapter);
 
