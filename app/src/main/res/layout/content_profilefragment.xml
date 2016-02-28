@@ -35,15 +35,6 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="34dp" />
 
-        <!--<Button-->
-            <!--android:id="@+id/editButton"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:lay-->
-            <!--android:text="Edit"-->
-            <!--android:onClick="editProfile"-->
-            <!--android:layout_below="@id/propic"/>-->
-
             <TextView
                 android:id="@+id/academicsTitle"
                 android:layout_width="match_parent"
