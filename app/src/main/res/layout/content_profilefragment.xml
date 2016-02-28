@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/propic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ffffff"
+            android:padding="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="73dp"
+            android:layout_alignBaseline="@+id/academicsTitle"
+            android:layout_alignBottom="@+id/academicsTitle"
+            android:layout_below="@+id/propic" />
+
+        <!--<Button-->
+            <!--android:id="@+id/editButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:lay-->
+            <!--android:text="Edit"-->
+            <!--android:onClick="editProfile"-->
+            <!--android:layout_below="@id/propic"/>-->
+
+            <TextView
+                android:id="@+id/academicsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academics"
+                android:layout_below="@+id/propic"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/academics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="69dp"
+                android:layout_below="@+id/editButton"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/aboutmetitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Me"
+                android:layout_below="@+id/academics"
+                android:layout_alignLeft="@+id/propic"
+                android:layout_alignStart="@+id/propic"
+                android:layout_marginTop="128dp" />
+            <TextView
+                android:id="@+id/aboutme"
+                android:layout_below="@+id/aboutmetitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/academicsTitle"
+                android:layout_alignRight="@+id/academicsTitle"
+                android:layout_marginTop="5dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
