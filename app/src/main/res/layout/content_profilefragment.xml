@@ -10,9 +10,10 @@
             android:background="#ffffff"
             android:padding="3dp"
             android:paddingTop="20dp"
+            android:src="@drawable/pro"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/pro"/>
+            android:layout_marginTop="34dp" />
 
         <TextView
             android:id="@+id/fullname"
@@ -21,7 +22,8 @@
             android:paddingRight="73dp"
             android:layout_below="@+id/propic"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="31dp" />
         <Button
             android:id="@+id/edit"
             android:layout_width="110dp"
@@ -47,28 +49,47 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Academics"
-                android:layout_above="@+id/aboutmetitle"
+                android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginBottom="50dp" />
+                android:layout_alignParentStart="true" />
 
             <TextView
                 android:id="@+id/aboutmetitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="About Me"
-                android:layout_above="@+id/aboutme"
+                android:layout_alignBaseline="@+id/aboutme"
+                android:layout_alignBottom="@+id/aboutme"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
             <TextView
                 android:id="@+id/aboutme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
+                android:height="50dp"
+                android:width="50dp"
+                android:layout_below="@+id/academicsTitle"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:height="50dp"
-                android:width="50dp" />
+                android:layout_marginTop="31dp" />
+
+    <TextView
+        android:id="@+id/intereststitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interests"
+        android:layout_below="@+id/aboutme"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/interests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:width="50dp"
+        android:layout_below="@+id/intereststitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
 
